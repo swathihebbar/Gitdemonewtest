@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic) int sum;
+@property (nonatomic) int sub;
+@property (nonatomic) int mul;
+@property (nonatomic) int dev;
+@property (nonatomic) int multipaleadd;
 
 @end
 
