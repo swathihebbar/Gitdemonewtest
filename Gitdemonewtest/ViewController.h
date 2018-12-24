@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Gitdemonewtest-Swift.h"
 
 @interface ViewController : UIViewController
 
@@ -15,6 +16,8 @@
 @property (nonatomic) int mul;
 @property (nonatomic) int dev;
 @property (nonatomic) int multipaleadd;
+
+@property (weak, nonatomic) IBOutlet UILabel *test;
 
 @end
 

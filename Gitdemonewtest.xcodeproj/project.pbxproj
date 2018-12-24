@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420DD4AB21A803E0009AA05C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420DD4A921A803E0009AA05C /* TestViewController.swift */; };
+		420DD4AC21A803E0009AA05C /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420DD4AA21A803E0009AA05C /* TestViewController.xib */; };
+		420DD4AF21A8040B009AA05C /* customobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 420DD4AE21A8040A009AA05C /* customobjc.m */; };
+		420DD4B121A8057C009AA05C /* swiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420DD4B021A8057C009AA05C /* swiftClass.swift */; };
+		420DD4B521A81320009AA05C /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420DD4B421A81320009AA05C /* View.xib */; };
 		42759D272199ABF4007FADBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42759D262199ABF4007FADBC /* AppDelegate.m */; };
 		42759D2A2199ABF4007FADBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42759D292199ABF4007FADBC /* ViewController.m */; };
 		42759D2D2199ABF4007FADBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42759D2B2199ABF4007FADBC /* Main.storyboard */; };
@@ -42,6 +47,13 @@
 		1CC61839DFDD245F273A64FB /* libPods-GitdemonewtestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitdemonewtestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0C7610D1347051212D7100 /* Pods-GitdemonewtestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitdemonewtestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitdemonewtestTests/Pods-GitdemonewtestTests.release.xcconfig"; sourceTree = "<group>"; };
 		41183E6D27D15C7FBEC3B801 /* Pods-GitdemonewtestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitdemonewtestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitdemonewtestTests/Pods-GitdemonewtestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		420DD4A821A803DF009AA05C /* Gitdemonewtest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gitdemonewtest-Bridging-Header.h"; sourceTree = "<group>"; };
+		420DD4A921A803E0009AA05C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		420DD4AA21A803E0009AA05C /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		420DD4AD21A8040A009AA05C /* customobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = customobjc.h; sourceTree = "<group>"; };
+		420DD4AE21A8040A009AA05C /* customobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customobjc.m; sourceTree = "<group>"; };
+		420DD4B021A8057C009AA05C /* swiftClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftClass.swift; sourceTree = "<group>"; };
+		420DD4B421A81320009AA05C /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		42759D222199ABF4007FADBC /* Gitdemonewtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gitdemonewtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42759D252199ABF4007FADBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42759D262199ABF4007FADBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -122,11 +134,18 @@
 				42759D262199ABF4007FADBC /* AppDelegate.m */,
 				42759D282199ABF4007FADBC /* ViewController.h */,
 				42759D292199ABF4007FADBC /* ViewController.m */,
+				420DD4B421A81320009AA05C /* View.xib */,
+				420DD4AD21A8040A009AA05C /* customobjc.h */,
+				420DD4AE21A8040A009AA05C /* customobjc.m */,
+				420DD4B021A8057C009AA05C /* swiftClass.swift */,
+				420DD4A921A803E0009AA05C /* TestViewController.swift */,
+				420DD4AA21A803E0009AA05C /* TestViewController.xib */,
 				42759D2B2199ABF4007FADBC /* Main.storyboard */,
 				42759D2E2199ABF4007FADBC /* Assets.xcassets */,
 				42759D302199ABF4007FADBC /* LaunchScreen.storyboard */,
 				42759D332199ABF4007FADBC /* Info.plist */,
 				42759D342199ABF4007FADBC /* main.m */,
+				420DD4A821A803DF009AA05C /* Gitdemonewtest-Bridging-Header.h */,
 			);
 			path = Gitdemonewtest;
 			sourceTree = "<group>";
@@ -242,6 +261,7 @@
 				TargetAttributes = {
 					42759D212199ABF4007FADBC = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 					42759D392199ABF5007FADBC = {
 						CreatedOnToolsVersion = 9.4;
@@ -279,7 +299,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				42759D322199ABF4007FADBC /* LaunchScreen.storyboard in Resources */,
+				420DD4B521A81320009AA05C /* View.xib in Resources */,
 				42759D2F2199ABF4007FADBC /* Assets.xcassets in Resources */,
+				420DD4AC21A803E0009AA05C /* TestViewController.xib in Resources */,
 				42759D2D2199ABF4007FADBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,8 +384,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				420DD4B121A8057C009AA05C /* swiftClass.swift in Sources */,
 				42759D2A2199ABF4007FADBC /* ViewController.m in Sources */,
+				420DD4AF21A8040B009AA05C /* customobjc.m in Sources */,
 				42759D352199ABF4007FADBC /* main.m in Sources */,
+				420DD4AB21A803E0009AA05C /* TestViewController.swift in Sources */,
 				42759D272199ABF4007FADBC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -534,6 +559,7 @@
 			baseConfigurationReference = 54CD90E1730DA95BF2DBB62C /* Pods-Gitdemonewtest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Gitdemonewtest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -542,6 +568,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.Gitdemonewtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gitdemonewtest/Gitdemonewtest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -551,6 +580,7 @@
 			baseConfigurationReference = 1805CF64D36A487639E5CFD2 /* Pods-Gitdemonewtest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Gitdemonewtest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -559,6 +589,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.Gitdemonewtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gitdemonewtest/Gitdemonewtest-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -567,6 +599,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41183E6D27D15C7FBEC3B801 /* Pods-GitdemonewtestTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GitdemonewtestTests/Info.plist;
@@ -586,6 +619,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F0C7610D1347051212D7100 /* Pods-GitdemonewtestTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GitdemonewtestTests/Info.plist;
@@ -605,6 +639,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A12D95F4B13E958E6ADA74DF /* Pods-GitdemonewtestUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GitdemonewtestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -623,6 +658,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA3BE19EA6EAD49176A97C37 /* Pods-GitdemonewtestUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GitdemonewtestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
