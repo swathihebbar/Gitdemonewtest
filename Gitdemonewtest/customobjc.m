@@ -11,5 +11,8 @@
 @implementation customobjc
 - (void) someMethod {
     NSLog(@"SomeMethod Ran");
+     NSLog(@"SomeMethod Ran");
+     NSLog(@"SomeMethod Ran");
+     NSLog(@"SomeMethod Ran");
 }
 @end
