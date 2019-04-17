@@ -43,6 +43,8 @@
     
     [self presentViewController:myOb animated:YES completion:nil];
     NSLog(@"RetString: %@", retString);
+    NSLog(@"RetStringeeeeeee: %@", retString);
+
 }
 
 
